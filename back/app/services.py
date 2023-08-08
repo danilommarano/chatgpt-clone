@@ -1,6 +1,5 @@
 """services.py
 
-
 SERVIÇOS
 --------------------------------------------------------------------------------
 Funções lógicas da aplicação. Esse arquivo serve para manter o código do 

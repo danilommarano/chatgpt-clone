@@ -1,6 +1,5 @@
 """models.py
 
-
 MODELOS
 --------------------------------------------------------------------------------
 Contém a definição dos modelos de dados, que representam as tabelas do banco de

@@ -1,11 +1,11 @@
 """controllers.py
 
-
 CONTROLADORES
 --------------------------------------------------------------------------------
 Contém funções que interagem com as rotas definidas em routes.py e fazem a 
 lógica de negócios da aplicação.
 """
+
 from app import app
 from app.models import User
 from flask import jsonify
