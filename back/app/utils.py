@@ -13,3 +13,9 @@ def sentiment_analysis(text):
     res = classifier(text)
     return res
 
+
+def text_generation(text):
+    generator = pipeline("text-generation")
+    res = generator(text, max_length=100, num_return_sequences=2)
+    return res
+
