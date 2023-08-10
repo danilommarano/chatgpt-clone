@@ -9,10 +9,15 @@ quando cada rota for acessada.
 from app import app
 from flask import jsonify
 
+from app.utils import translation
+
 # Home
 @app.route('/')
 def index():
     return 'API em Flask funcionando!'
 
 
-# Pipeline
+# Translator
+@app.route('/translate')
+def translate():
+    pass
